@@ -5,6 +5,12 @@
 * 3 保存先を指定します
 * 4 ボタンをクリックするとダウンロードが開始されます
 
+## Build ⚠
+
+NugetPackageから [MediaToolKit] と [VideoLibrary] を
+
+インストールしてください
+
 ## MenuStrip🙄
 URLをファイル *.yturl として保存し開くことがができます
 
