@@ -22,10 +22,29 @@ Youtubeの動画を録画する必要がなく速くかつ簡単に動画を保�
 
 また、iphone , Android に動画を送ることでギガを消費せず動画の閲覧が可能になります(?)
 
-## Screenshots🎨
+## Screenshots 🎨
 ![Main App 2](https://user-images.githubusercontent.com/101918076/173849837-3bd48277-ff6d-4fce-9d5f-5e6a9dee65dc.jpg)
 
 [ここ]()からツールをダウンロードできます
+
+## Example Codes ✔
+````csharp
+ var youTube = YouTube.Default;
+            var video = youTube.GetVideo(txtyoutube.Text.Trim());
+            SaveFileDialog sfd = new SaveFileDialog();
+            sfd.FileName = video.FullName;
+ 
+            try
+            {
+                System.IO.File.WriteAllBytes(path + sfd.FileName, video.GetBytes());
+                logoutput.Info(sfd.FileName);
+                MessageBox.Show("Downloaded Successfully", "App", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            catch (Exception ex)
+            {
+                logoutput.Error(ex, ex.Message);
+            }
+````
 
 ## License & Reference 🌺
 
