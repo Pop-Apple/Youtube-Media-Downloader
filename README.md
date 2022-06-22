@@ -1,34 +1,35 @@
-## How to use [Youtube-Media-Downloader](https://github.com/Pop-Apple/Youtube-Media-Downloader)🔊
+## How to use [Youtube-Media-Downloader](https://github.com/Pop-Apple/Youtube-Media-Downloader) 🔗
 
-* 1 アドレスにYoutubeのURLを記入します
-* 2 Formatを(.mp3)か(.mp4)か選択します
-* 3 保存先を指定します
-* 4 ボタンをクリックするとダウンロードが開始されます
+* 1 Enter the Youtube URL in the address
+* 2 Select whether Format is (.mp3) or (.mp4).
+* 3 Specify the save destination
+* Click the 4 button to start the download.
 
-## Build ⚠
+## Build 🏢
 
-NugetPackageから [MediaToolKit] と [VideoLibrary] を
+[MediaToolKit] and [VideoLibrary] from NugetPackage
 
-インストールしてください
+Please install
 
-## MenuStrip🙄
-URLをファイル *.yturl として保存し開くことがができます
+## MenuStrip 🤖
 
-試しに追加してみた機能です
+You can save and open the URL as a file * .yturl
 
-補助機能として Process.Start を使用して簡単に[Google](https://www.google.com/) & [YouTube](https://www.youtube.com/)に
+It is a function that I added as a trial
 
-アクセスすることができます
+Easily go to [Google](https://www.google.com/) & [YouTube](https://www.youtube.com/) using Process.Start as an auxiliary feature
+
+Can be accessed
 
 ![0173](https://user-images.githubusercontent.com/101918076/173852565-f095169d-4ef6-4ebd-a71a-6b9654d295ee.jpg)
 
 ## Purpose 🚗
 
-Youtubeの動画を録画する必要がなく速くかつ簡単に動画を保存することができます
+You can save videos quickly and easily without having to record Youtube videos
 
-また、iphone , Android に動画を送ることでギガを消費せず動画の閲覧が可能になります(?)
+Also, by sending videos to iphone and Android, you can view videos without consuming giga (?).
 
-[ここ](https://github.com/Pop-Apple/Youtube-Media-Downloader/releases/tag/v1.0.0.1)からツールをダウンロードできます
+You can download the tool from [here](https://github.com/Pop-Apple/Youtube-Media-Downloader/releases/tag/v1.0.0.1)
 
 ## Example Codes ✔
 ````csharp
