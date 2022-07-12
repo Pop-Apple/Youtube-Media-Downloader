@@ -6,7 +6,8 @@
 * 4 Click the button to start the download.
 
 ## Build
-* Build
+Open `Youtube-Media-Downloader.sln`  
+Build !
 
 ## Menu
 You can save and open the URL as a file *.yturl  
